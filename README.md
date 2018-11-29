@@ -14,13 +14,13 @@
 - El cliente lo realicé con el objetivo de utilizarlo por lineas de comando. 
   Contiene 4 tipos de llamadas posibles:
 
-  . php Cliente.php [metodo][username][username][email].
+  . php Cliente.php [metodo][username][password][email].
   
   . metodos: addUser,activateUser,deactivateUser,getUser.
 
  Ejemplos: 
   
-  "php Cliente.php addUser Cristian bonavena2@gmail.com mipaswoord"
+  "php Cliente.php addUser Cristian  mipaswoord bonavena2@gmail.com"
    
   "php Cliente.php activateUse Cristian"
 
